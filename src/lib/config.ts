@@ -199,7 +199,7 @@ async function initConfig() {
             SearchDownstreamMaxPage:
               Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
             SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
-            ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://image.baidu.com/search/down?url=',
+            ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://i0.wp.com/',
             DoubanProxy: process.env.NEXT_PUBLIC_DOUBAN_PROXY || '',
             DisableYellowFilter:
               process.env.NEXT_PUBLIC_DISABLE_YELLOW_FILTER === 'true',
@@ -247,7 +247,7 @@ async function initConfig() {
         SearchDownstreamMaxPage:
           Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
         SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
-        ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://image.baidu.com/search/down?url=',
+        ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://i0.wp.com/',
         DoubanProxy: process.env.NEXT_PUBLIC_DOUBAN_PROXY || '',
         DisableYellowFilter:
           process.env.NEXT_PUBLIC_DISABLE_YELLOW_FILTER === 'true',
@@ -436,7 +436,7 @@ export async function resetConfig() {
       SearchDownstreamMaxPage:
         Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
       SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
-      ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://image.baidu.com/search/down?url=',
+      ImageProxy: process.env.NEXT_PUBLIC_IMAGE_PROXY || 'https://i0.wp.com/',
       DoubanProxy: process.env.NEXT_PUBLIC_DOUBAN_PROXY || '',
       DisableYellowFilter:
         process.env.NEXT_PUBLIC_DISABLE_YELLOW_FILTER === 'true',
